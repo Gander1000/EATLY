@@ -1,6 +1,6 @@
 import scss from "./Cart_3.module.scss";
 import blog_img from "../../assets/Image_a.svg";
-import ELLipse from "../../assets/ELLipse 28.svg";
+import ELLipse from "../../assets/ELLipse.svg";
 import Prev from "../../assets/Back.svg";
 import Next from "../../assets/Back_a.svg";
 
