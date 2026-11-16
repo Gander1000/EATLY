@@ -1,5 +1,5 @@
 import scss from "./Heder.module.scss";
-import logo from "../../assets/logo.svg";
+import Logo from "../../assets/Logo.svg";
 import { Link, NavLink } from "react-router";
 
 function Heder() {
@@ -7,7 +7,7 @@ function Heder() {
     <section className={scss.Heder}>
       <div className={scss.contai}>
         <NavLink className={scss.logo} to="/">
-          <img src={logo} alt="Logo" />
+          <img src={Logo} alt="Logo" />
           eatly
         </NavLink>
         <div className={scss.contai_a}>
