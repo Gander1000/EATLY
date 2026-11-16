@@ -1,5 +1,5 @@
 import scss from "./Foter.module.scss";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
 import instogram from "../../assets/Group 888.svg";
 
 function Foter() {
