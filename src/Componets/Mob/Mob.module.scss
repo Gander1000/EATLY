@@ -1,0 +1,83 @@
+.Mob {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10vw;
+  position: relative;
+  background-color: rgba(249, 249, 249, 1);
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 6vw;
+    right: 6vw;
+    height: 1px;
+    background: #cbcbcb;
+    z-index: 1;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 560.0003662109375px;
+    position: relative;
+
+    h1 {
+      font-size: 50.92px;
+      font-weight: 700;
+      color: #18181b;
+      line-height: 58.2px;
+      letter-spacing: 0px;
+
+      span {
+        color: #6c5fbc;
+      }
+    }
+
+    .contai_span {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      span {
+        display: flex;
+        align-items: start;
+        font-size: 20.33px;
+        color: #676767;
+        font-weight: 400;
+        line-height: 30.5px;
+        letter-spacing: 0px;
+
+        &::before {
+          content: "•";
+          margin-right: 10px;
+        }
+      }
+    }
+
+    button {
+      font-size: 18.06px;
+      font-weight: 500;
+      line-height: 22.58px;
+      color: #ffffff;
+      letter-spacing: 0%;
+      background-color: #6c5fbc;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 40px;
+      border-radius: 20px;
+      border: none;
+      max-width: 186px;
+      cursor: pointer;
+    }
+
+    .Vector {
+      position: absolute;
+      bottom: -10%;
+      right: 40%;
+    }
+  }
+}

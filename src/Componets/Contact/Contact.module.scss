@@ -1,0 +1,79 @@
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6vw;
+  padding-left: 0;
+  padding-bottom: 12vw;
+
+  .contai_Left {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .Mobile {
+      position: absolute;
+      bottom: -9.5%;
+      right: -41%;
+    }
+  }
+
+  .contai_input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+      color: rgba(37, 37, 37, 1);
+      line-height: 55.4px;
+      letter-spacing: 0px;
+
+      span {
+        color: rgba(108, 95, 188, 1);
+      }
+    }
+
+    input, .input_box {
+      display: flex;
+      align-items: center;
+      border: solid 2px rgba(108, 95, 188, 1);
+      border-radius: 16.89px;
+      padding: 23px;
+      outline: none;
+      font-size: 16.89px;
+      font-weight: 600;
+      color: rgba(182, 182, 182, 1);
+      line-height: 25.34px;
+      letter-spacing: 0px;
+
+      &::placeholder {
+        font-size: 16.89px;
+        font-weight: 600;
+        color: rgba(182, 182, 182, 1);
+        line-height: 25.34px;
+        letter-spacing: 0px;
+      }
+    }
+
+    .input_box{
+        padding-bottom: 345px;
+    }
+
+    button{
+        background-color: rgba(108, 95, 188, 1);
+        border-radius: 15.88px;
+        padding: 25px 30px;
+        border: none;
+        outline: none;
+        font-size: 20.81px;
+        font-weight: 600;
+        color: rgba(249, 249, 249, 1);
+        line-height: 100%;
+        letter-spacing: 3%;
+        cursor: pointer;
+    }
+  }
+}

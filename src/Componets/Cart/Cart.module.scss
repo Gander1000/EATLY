@@ -1,0 +1,134 @@
+.Cart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6vw;
+  gap: 100px;
+  position: relative;
+  padding-bottom: 12vw;
+  background-color: rgba(249, 249, 249, 1);
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 6vw;
+    right: 6vw;
+    height: 1px;
+    background: #cbcbcb;
+    z-index: 1;
+  }
+
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 25.56px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #323142;
+
+    span {
+      color: #6c5fbc;
+    }
+  }
+
+  .contai_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 20px 30px;
+      justify-content: end;
+      gap: 0;
+      border: solid 1.25px #f4f4f6;
+      border-radius: 30px;
+      position: relative;
+      width: 338px;
+      height: 280px;
+      box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.25);
+
+      .Resturent {
+        position: absolute;
+        top: 0;
+        left: -29px;
+        border-radius: 30px;
+      }
+
+      .card_text {
+        display: flex;
+        flex-direction: column;
+
+        p {
+          color: #daa31a;
+          font-size: 12.78px;
+          font-weight: 400;
+          line-height: 100%;
+          letter-spacing: 0px;
+          font-family: "Poppins";
+          font-style: normal;
+          background-color: #f7edd0;
+          padding: 5px 10px;
+          border-radius: 5px;
+          width: fit-content;
+        }
+
+        h4 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 25.79px;
+          line-height: 41.9px;
+          letter-spacing: 0px;
+          color: #323142;
+        }
+
+        .card_text_span {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          span {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            color: #8e97a6;
+          }
+
+          .Bookmark {
+            margin-left: 9.5vw;
+          }
+        }
+      }
+    }
+  }
+
+  .foter_click {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45.18px;
+    letter-spacing: -0.1px;
+    cursor: pointer;
+    color: #acadb9;
+    position: absolute;
+    bottom: 15%;
+    right: 6vw;
+
+    img {
+      width: 30px;
+    }
+  }
+}

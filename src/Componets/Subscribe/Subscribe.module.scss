@@ -1,0 +1,79 @@
+.Subscribe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6vw;
+  background-color: rgba(249, 249, 249, 1);
+
+  .contai {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px;
+    position: relative;
+    background-color: rgba(108, 95, 188, 1);
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+    background-image: url(../../assets/Mask_Group.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .Food {
+      position: absolute;
+      right: 5%;
+      bottom: -20%;
+    }
+
+    h1 {
+      font-size: 70px;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 1);
+      line-height: 100%;
+      letter-spacing: 0px;
+    }
+
+    .contai_input_buuton {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255, 255, 255, 1);
+      padding: 7px;
+      width: 100%;
+      max-width: 439.7333679199219px;
+      border-radius: 14.23px;
+      box-shadow: 0px 0px 45.33px 0px rgba(0, 0, 0, 0.1);
+
+      input {
+        padding: 20px;
+        border: none;
+        outline: none;
+        width: 100%;
+
+        &::placeholder {
+          font-size: 16.27px;
+          font-weight: 400;
+          color: rgba(135, 135, 135, 1);
+          line-height: 100%;
+          letter-spacing: 3%;
+        }
+      }
+
+      button {
+        border: none;
+        outline: none;
+        background-color: rgba(108, 95, 188, 1);
+        border-radius: 11.25px;
+        padding: 20px 25px;
+        font-size: 14.75px;
+        font-weight: 500;
+        color: rgba(247, 248, 250, 1);
+        line-height: 100%;
+        letter-spacing: 3%;
+        cursor: pointer;
+      }
+    }
+  }
+}
